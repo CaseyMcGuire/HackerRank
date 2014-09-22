@@ -13,6 +13,7 @@ Output Format
 For each test case print the number of positions in N where digits in that number exactly divides the number N in separate line.
 
 Input 
+
 1
 12
 
