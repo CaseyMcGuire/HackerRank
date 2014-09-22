@@ -6,17 +6,13 @@ Input format
 The first line contains T (number of test cases followed by T lines each containing N).
 
 Constraints
-
 1 <= T <= 15
-
 0 < N < 10^10
 
 Output Format
-
 For each test case print the number of positions in N where digits in that number exactly divides the number N in separate line.
 
 Input 
-
 1
 12
 
