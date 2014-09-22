@@ -8,7 +8,7 @@ The first line contains T (number of test cases followed by T lines each contain
 
 Constraints
 ===========
-1 <= T <= 15
+1 <= T <= 15 \n
 0 < N < 10^10
 
 Output Format
@@ -17,7 +17,7 @@ For each test case print the number of positions in N where digits in that numbe
 
 Input 
 ========
-1
+1 \n
 12
 
 Output
