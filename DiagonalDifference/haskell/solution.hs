@@ -10,12 +10,9 @@ main = do
   return ()
 
 getDiagonalSum :: [[Int]] -> Int
-getDiagonalSum matrix = abs (leftToRightDiagonalSum matrix - rightToLeftDiagonalSum matrix)
+getDiagonalSum matrix = abs (leftToRightDiagonalSum matrix - (leftToRightDiagonalSum . reverse) matrix)
   
 leftToRightDiagonalSum :: [[Int]] -> Int
 leftToRightDiagonalSum matrix = fst $ foldl' (\(acc,index) x -> (acc + (x !! index), index + 1)) (0,0) matrix
-
-rightToLeftDiagonalSum :: [[Int]] -> Int
-rightToLeftDiagonalSum matrix = fst $ foldl' (\(acc,index) x -> (acc + (x !! index), index - 1)) (0, (length matrix) -1) matrix
 
   
